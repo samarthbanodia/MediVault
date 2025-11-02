@@ -1,6 +1,7 @@
-# MediSense: AI-Powered Healthcare Assistant
+# MediVault: Unified Medical History for everyone
 
-**MediSense** is an intelligent platform designed to assist both patients and doctors by leveraging state-of-the-art AI to analyze and manage medical records. It provides a seamless interface for uploading medical documents, extracting vital information, and offering smart search and analysis capabilities.
+
+**MediVault** is an intelligent platform designed to assist both patients and doctors by leveraging state-of-the-art AI to analyze and manage medical records. It provides a seamless interface for uploading medical documents, extracting vital information, and offering smart search and analysis capabilities.
 
 ## Key Features
 
