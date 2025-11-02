@@ -1,0 +1,43 @@
+Patient: John Doe
+Patient ID: P12345
+Age: 55 years
+Date: 15/01/2024
+
+Chief Complaint:
+Routine diabetes checkup
+
+Diagnosis:
+Type 2 Diabetes Mellitus
+Hypertension
+
+Lab Results:
+- Fasting Blood Sugar: 180 mg/dL (High)
+- HbA1c: 8.5%
+- Blood Pressure: 140/90 mmHg
+- Total Cholesterol: 220 mg/dL
+- LDL: 150 mg/dL
+- Hemoglobin: 13.5 g/dL
+- Creatinine: 1.0 mg/dL
+
+Current Medications:
+1. Tab Metformin 500mg 1+0+1 AC x 30 days
+2. Tab Amlodipine 5mg 1+0+0 x 30 days
+3. Tab Atorvastatin 20mg 0+0+1 PC x 30 days
+
+Symptoms:
+- Increased thirst
+- Frequent urination
+- Occasional dizziness
+
+Recommendations:
+1. Continue current medications
+2. Monitor blood sugar daily
+3. Follow diabetic diet
+4. Regular exercise 30 min/day
+5. Reduce salt intake
+
+Next visit: 15/02/2024
+
+Doctor's Signature
+Dr. Rajesh Kumar, MD
+Registration No: 12345
