@@ -92,33 +92,112 @@ These instructions will get you a copy of the project up and running on your loc
 
     Open your browser and navigate to `http://localhost:5173`.
 
-## Project Structure
+## 🚀 Key Features
 
+### 1. Document Ingestion Pipeline
 ```
-MediSense/
-├── frontend_figma/         # React frontend application
-│   ├── src/
-│   │   ├── components/     # UI components
-│   │   ├── pages/          # Application pages
-│   │   └── ...
-│   ├── package.json
-│   └── ...
-├── pipelines/              # AI pipelines
-│   ├── components/         # Pipeline components (OCR, NER, etc.)
-│   ├── ingestion.py        # Document ingestion pipeline
-│   └── search.py           # Search pipeline
-├── api/                    # Backend API endpoints
-├── data/                   # Data files (biomarker ranges, etc.)
-├── tests/                  # Test scripts
-├── app.py                  # Main backend application file
-├── requirements.txt        # Python dependencies
-└── README.md
+Image Upload → OCR → Medical NER → Prescription Parsing
+→ 7-Layer Anomaly Detection → Embeddings → Vector DB Storage
 ```
 
-## Contributing
+**Capabilities:**
+- Multi-language OCR (English + Hindi)
+- Automatic fallback between OCR engines
+- Medical entity extraction (diseases, medications, biomarkers)
+- Indian prescription format support (1+0+1)
+- Clinical severity scoring (0-100)
+- Automatic vector embedding and storage
 
-We welcome contributions! Please see our [contributing guidelines](CONTRIBUTING.md) for more details.
+### 2. Smart Search Pipeline
+```
+User Query → Intent Parsing → Semantic Search
+→ Keyword Filtering → Hybrid Ranking → Results
+```
 
-## License
+**Capabilities:**
+- Natural language queries
+- Multilingual support
+- Temporal filtering ("last week", "last month")
+- Biomarker-specific searches
+- Condition-based filtering
+- Patient-specific queries
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### 3. 7-Layer Anomaly Detection
+
+1. **Layer 1:** Range check against normal values
+2. **Layer 2:** Critical value detection (emergency alerts)
+3. **Layer 3:** Age-adjusted reference ranges
+4. **Layer 4:** Medication context analysis
+5. **Layer 5:** Comorbidity pattern detection
+6. **Layer 6:** Trend analysis vs historical data
+7. **Layer 7:** Drug-drug interaction checking
+
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technology | Purpose |
+|----------|-----------|---------|
+| **OCR** | Tesseract 5.x | Fast printed text |
+| **OCR** | EasyOCR | Handwritten text, Hindi |
+| **NER** | HuggingFace Transformers | Medical entity extraction |
+| **Embeddings** | Sentence Transformers | Semantic search |
+| **Vector DB** | ChromaDB | Fast similarity search |
+| **NLP** | spaCy | Query parsing |
+| **Framework** | PyTorch | Deep learning backend |
+
+---
+
+## 📦 Models Used
+
+### 1. Medical NER
+- **Model:** `blaze999/Medical-NER`
+- **Size:** 420MB
+- **Accuracy:** 85-90%
+- **Purpose:** Extract diseases, medications, symptoms
+
+### 2. Embeddings
+- **Model:** `paraphrase-multilingual-mpnet-base-v2`
+- **Size:** 1.1GB
+- **Dimensions:** 768
+- **Purpose:** Multilingual semantic search
+- **Alternative:** `all-MiniLM-L6-v2` (80MB, faster)
+
+### 3. OCR
+- **Tesseract:** Pre-installed, fast, good for printed text
+- **EasyOCR:** Auto-download, good for handwritten text
+
+### 4. NLP
+- **spaCy:** `en_core_web_sm` (13MB) for query parsing
+
+---
+
+## 🎯 What Can Be Done Now
+
+### Immediate Capabilities
+
+1. **Process Medical Documents:**
+   ```python
+   pipeline = IngestionPipeline()
+   result = pipeline.process_document('prescription.jpg', patient_info)
+   ```
+
+2. **Search Medical Records:**
+   ```python
+   search = SearchPipeline()
+   results = search.search("diabetes patients with high glucose")
+   ```
+
+3. **Detect Anomalies:**
+   ```python
+   detector = AnomalyDetector()
+   anomalies = detector.detect_anomalies(medical_record)
+   ```
+
+4. **Parse Prescriptions:**
+   ```python
+   parser = PrescriptionParser()
+   prescriptions = parser.parse_prescription(text)
+   ```
+
+---
