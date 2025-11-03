@@ -1,0 +1,35 @@
+{
+  "dosage_formats": {
+    "1+0+1": "Morning and night",
+    "1+1+1": "Three times daily",
+    "0+0+1": "At bedtime",
+    "1+0+0": "Morning only",
+    "0+1+0": "Afternoon only",
+    "1+1+0": "Morning and afternoon",
+    "0+1+1": "Afternoon and night"
+  },
+  "abbreviations": {
+    "OD": "Once daily",
+    "BD": "Twice daily",
+    "TDS": "Three times daily",
+    "QID": "Four times daily",
+    "SOS": "If needed",
+    "STAT": "Immediately",
+    "AC": "Before meals",
+    "PC": "After meals",
+    "HS": "At bedtime",
+    "PRN": "As needed"
+  },
+  "common_medications": [
+    "Metformin",
+    "Amlodipine",
+    "Atorvastatin",
+    "Aspirin",
+    "Pantoprazole",
+    "Glimepiride",
+    "Losartan",
+    "Atenolol",
+    "Clopidogrel",
+    "Insulin"
+  ]
+}

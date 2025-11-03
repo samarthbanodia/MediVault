@@ -1,0 +1,37 @@
+[
+  {
+    "drug1": "Metformin",
+    "drug2": "Alcohol",
+    "severity": "high",
+    "description": "Increased risk of lactic acidosis",
+    "recommendation": "Avoid alcohol consumption"
+  },
+  {
+    "drug1": "Warfarin",
+    "drug2": "Aspirin",
+    "severity": "high",
+    "description": "Increased bleeding risk",
+    "recommendation": "Monitor INR closely"
+  },
+  {
+    "drug1": "Amlodipine",
+    "drug2": "Simvastatin",
+    "severity": "moderate",
+    "description": "Increased statin levels",
+    "recommendation": "Do not exceed Simvastatin 20mg daily"
+  },
+  {
+    "drug1": "Metformin",
+    "drug2": "Contrast Dye",
+    "severity": "high",
+    "description": "Risk of lactic acidosis",
+    "recommendation": "Discontinue 48 hours before imaging"
+  },
+  {
+    "drug1": "ACE Inhibitors",
+    "drug2": "Potassium",
+    "severity": "moderate",
+    "description": "Hyperkalemia risk",
+    "recommendation": "Monitor potassium levels"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "glucose": {
+    "normal": {"min": 70, "max": 100},
+    "critical_low": 50,
+    "critical_high": 300,
+    "unit": "mg/dL"
+  },
+  "hba1c": {
+    "normal": {"min": 4.0, "max": 5.6},
+    "critical_high": 10.0,
+    "unit": "%"
+  },
+  "systolic_bp": {
+    "normal": {"min": 90, "max": 120},
+    "critical_low": 70,
+    "critical_high": 180,
+    "unit": "mmHg"
+  },
+  "diastolic_bp": {
+    "normal": {"min": 60, "max": 80},
+    "critical_low": 50,
+    "critical_high": 120,
+    "unit": "mmHg"
+  },
+  "cholesterol": {
+    "normal": {"min": 100, "max": 200},
+    "critical_high": 300,
+    "unit": "mg/dL"
+  },
+  "hemoglobin": {
+    "normal": {"min": 12.0, "max": 16.0},
+    "critical_low": 8.0,
+    "unit": "g/dL"
+  },
+  "creatinine": {
+    "normal": {"min": 0.6, "max": 1.2},
+    "critical_high": 3.0,
+    "unit": "mg/dL"
+  }
+}
