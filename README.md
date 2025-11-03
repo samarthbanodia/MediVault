@@ -1,4 +1,4 @@
-# 🏥 MediVault - AI-Powered Medical Records Platform
+# 🏥 MediVault - AI-Powered Medical Records Platform - Loop Hackathon
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Google Gemini](https://img.shields.io/badge/Google-Gemini%202.0-orange.svg)](https://ai.google.dev/)
@@ -8,6 +8,8 @@
 > **Transform scattered medical documents into intelligent, searchable health insights using Google's Gemini AI**
 
 MediVault is a cutting-edge healthcare platform that leverages **Google ADK (Agentic Development Kit)** with Gemini 2.0 Flash to provide intelligent medical document processing, semantic search, and AI-powered health insights.
+<img width="1151" height="418" alt="image" src="https://github.com/user-attachments/assets/ec160039-8140-4a69-91a8-6efad6621ed7" />
+<img width="1128" height="211" alt="image" src="https://github.com/user-attachments/assets/5da2e3bd-6818-4ef8-a812-14c51ff49cda" />
 
 ---
 
